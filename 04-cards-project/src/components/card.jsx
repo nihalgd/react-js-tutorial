@@ -1,7 +1,6 @@
 import { Bookmark } from "lucide-react";
 
 const card = (props) => {
-  console.log(props);
   return (
          <div className="cards">
     
