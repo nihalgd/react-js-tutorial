@@ -10,22 +10,20 @@ body{
   background-color: #111;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap; 
-  justify-content: center;  
   gap : 30px;
 }
 
 .cards{
-  height: 360px;
-  width: 280px;
+  height: 350px;
+  width: 240px;
   background-color: white;
   border-radius: 20px;
   padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
+  gap: 30px; 
 }
 
 /* top section */
