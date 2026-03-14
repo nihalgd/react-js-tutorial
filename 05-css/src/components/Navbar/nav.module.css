@@ -1,0 +1,23 @@
+nav{
+    background-color: #222;
+    padding: 15px 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+li a:hover{
+    color: #00bcd4;
+}

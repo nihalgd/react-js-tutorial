@@ -1,12 +1,13 @@
-import React from 'react'
+import Nav from "./components/Navbar/nav";
+import Button from "./components/Button/button";
 
 const App = () => {
   return (
     <div>
-      Haannn mere Bhaiiiiiiiiii!!!!
-
+      <Nav />
+      <Button />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
