@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-*{
+body{
   font-family: 'Poppins', sans-serif;
-  
 }
 #vixen::-webkit-scrollbar{
   display: none;
+}
+#font{
+   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }

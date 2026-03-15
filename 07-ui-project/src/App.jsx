@@ -21,7 +21,7 @@ const users = [
   {
     img: "https://w0.peakpx.com/wallpaper/501/209/HD-wallpaper-angela-white-panties-women-bra-natural-boobs-big-boobs-black-hair-actress.jpg",
     text: "Modern innerwear that blends fashion with everyday comfort.",
-    button: "New Collection",
+    button: "Signature",
   },
   {
     img: "https://cdni.pornpics.com/460/7/543/89686227/89686227_009_a896.jpg",
