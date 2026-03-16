@@ -1,14 +1,25 @@
-import React from 'react'
+import { useState } from 'react'
 
 const App = () => {
+
+        const [kitna, setfirst] = useState("?")
+  const [kitnaa, set] = useState("0")
+  function dek (){
+    setfirst("02")
+
+  }
+  function inc(){
+    set(kitnaa + 1)
+  }
+   function dec(){
+    set(kitnaa - 1)
+  }
+   function plus(){
+    set(kitnaa + 5)
+  }
+
   return (
-    <div>App</div>
-  )
-}
-
-export default App
-
- {/* <h1 id="le"><i className="ri-infinity-line"></i></h1>
+    <div>
       <h1> 1 + 1 = {kitna} </h1>
       <button onClick={dek}>calculate</button>
 
@@ -17,20 +28,12 @@ export default App
         <button onClick={inc}>+</button>
         <button onClick={dec}>-</button>
         <button onClick={plus}>+5</button>
-      </div> */}
+      </div>
+    </div>
+  )
+}
 
-      // const [kitna, setfirst] = useState("?")
-  // const [kitnaa, set] = useState("0")
-  // function dek (){
-  //   setfirst("02")
+export default App
 
-  // }
-  // function inc(){
-  //   set(kitnaa + 1)
-  // }
-  //  function dec(){
-  //   set(kitnaa - 1)
-  // }
-  //  function plus(){
-  //   set(kitnaa + 5)
-  // }
+      
+
