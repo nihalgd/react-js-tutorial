@@ -1,12 +1,25 @@
-import React from 'react'
+import { useState } from "react";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  const [num, setNum] = useState({ user: "Nihal", age: 20 });
 
-export default App
+  const btn = () => {
+    setNum(prev => ({
+      ...prev,
+      user: "Gourav",
+      age: 21
+    }));
+  };
+
+  return (
+    <div>
+      <h1>{num.user} , {num.age}</h1>
+      <button onClick={btn}>Click</button>
+    </div>
+  );
+};
+
+export default App;
 
   // const [num, setfirst] = useState({user : "Nihal" , age : 20})
   // const btn =()=> {
