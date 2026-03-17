@@ -1,0 +1,10 @@
+*{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #222222;
+  color: rgb(224, 234, 243);
+}
+input,button{
+  padding: 10px 20px;
+  margin: 10px;
+  font: 15px;
+}
