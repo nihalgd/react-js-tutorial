@@ -1,13 +1,33 @@
-import { useEffect } from "react"
-
+import { useEffect, useState } from "react"
 
 const App = () => {
-  useEffect(function () {
-    console.log('Use effect iss runninnggg!!!');
-    
-  })
+  const [a, setA] = useState(0)
+  const [b, setB] = useState(0)
+
+  const A = () =>{
+    console.log('A changed');
+  }
+  const B = () =>{
+    console.log('B changed'); 
+  }
+  useEffect(function (){
+    A()
+    // console.log('use effect is runnninng......');
+  },[a])
+
   return (
-    <div>App</div>
+    <div>
+      <h1> {a} </h1>
+      <h1> {b} </h1>
+
+      <button onClick={()=>{
+        setA(a+1)
+      }}> Change A </button>
+
+      <button onClick={()=>{
+        setB(b-1)
+      }}> Change B </button>
+    </div>
   )
 }
 
