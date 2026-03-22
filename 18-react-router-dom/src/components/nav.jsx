@@ -7,7 +7,7 @@ const Nav = () => {
         <div className="flex justify-between items-center h-16">
 
          
-          <h1 className="text-xl font-bold">MyApp</h1>
+          <h2 className="text-xl font-bold">MyApp</h2>
 
          
           <div className="flex space-x-6">
