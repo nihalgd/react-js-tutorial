@@ -24,7 +24,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white px-6 py-20">
+    <section className="min-h-screen from-gray-900 via-black to-gray-900 text-white px-6 py-20">
 
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
         My Projects
@@ -63,7 +63,7 @@ const Projects = () => {
               <a 
                 href={project.link}
                 target="_blank"
-                className="bg-gradient-to-r from-blue-500 to-purple-500 px-4 py-2 rounded-lg text-sm hover:scale-105 transition"
+                className=" from-blue-500 to-purple-500 px-4 py-2 rounded-lg text-sm hover:scale-105 transition"
               >
                 View Code
               </a>

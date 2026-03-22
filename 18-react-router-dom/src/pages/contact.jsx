@@ -28,7 +28,7 @@ const Contact = () => {
             className="w-full p-3 rounded-lg bg-white/10 border border-gray-600 focus:outline-none"
           ></textarea>
 
-          <button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 py-3 rounded-lg text-lg font-semibold hover:scale-105 transition">
+          <button className="w-full  from-blue-500 to-purple-500 py-3 rounded-lg text-lg font-semibold hover:scale-105 transition">
             Send Message
           </button>
 

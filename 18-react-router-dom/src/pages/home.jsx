@@ -1,10 +1,10 @@
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen  from-gray-900 via-black to-gray-900 text-white flex items-center justify-center relative overflow-hidden">
       
       {/* Glow Effect */}
-      <div className="absolute w-[500px] h-[500px] bg-blue-500 opacity-20 blur-3xl rounded-full top-[-100px] left-[-100px]"></div>
-      <div className="absolute w-[400px] h-[400px] bg-purple-500 opacity-20 blur-3xl rounded-full bottom-[-100px] right-[-100px]"></div>
+      <div className="absolute  bg-blue-500 opacity-20 blur-3xl rounded-full "></div>
+      <div className="absolute  bg-purple-500 opacity-20 blur-3xl rounded-full "></div>
 
       <div className="text-center px-6 z-10">
         
@@ -16,7 +16,7 @@ const Home = () => {
         {/* Heading */}
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
           Build Digital <br />
-          <span className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
+          <span className=" from-blue-400 to-purple-500 text-transparent bg-clip-text">
             Experiences
           </span>
         </h1>
@@ -29,7 +29,7 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="flex justify-center gap-4 flex-wrap">
-          <button className="bg-gradient-to-r from-blue-500 to-purple-500 px-6 py-3 rounded-lg text-lg font-semibold hover:scale-105 transition">
+          <button className=" from-blue-500 to-purple-500 px-6 py-3 rounded-lg text-lg font-semibold hover:scale-105 transition">
             Get Started
           </button>
 
