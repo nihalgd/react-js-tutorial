@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
 
         <div className="buttons">
           <button className="primary">Get Started</button>
-          <button className="secondary">View Projects</button>
+          <Link to='/projects'><button className="secondary">View Projects</button></Link>
         </div>
 
         <div className="stats">
