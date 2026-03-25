@@ -1,12 +1,13 @@
-import React from 'react'
 
-const nav1 = () => {
+
+const nav1 = (props) => {
   return (
-    <div>
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Services</h3>
-        <h3>Contacts</h3>
+    <div className="flex gap-5 pl-20 pr-2">
+        <h4>Home</h4>
+        <h4>About</h4>
+        <h4>Services</h4>
+        <h4>Contacts</h4>
+        <h4>{props.theme}</h4>
     </div>
   )
 }
